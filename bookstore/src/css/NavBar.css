@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: green;
+    color: aliceblue;
+    padding-inline: 45px;
+    border-bottom: 1px solid greenyellow;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    margin-right: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-link:hover{
+    text-decoration: underline;
+}
